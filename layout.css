@@ -1,0 +1,62 @@
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: -10;
+}
+
+
+.megamenu {
+  position:static;
+}
+.megamenu > .dropdown-menu {
+  width:90%;
+  right:40px;
+  left:40px;
+}
+
+.navbar .navbar-nav .dropdown-menu .col a:hover {
+ color: black !important;
+ font-weight:bold;
+}
+
+.navbar .navbar-nav .dropdown-menu #men:before {
+  content: "";
+  position: absolute;
+  left: 40px;
+  top: 0;
+  width: 5%;
+  border-top: 5px solid #DC3545;
+}
+
+.navbar .navbar-nav .dropdown-menu #women:before {
+  content: "";
+  position: absolute;
+  left: 115px;
+  top: 0;
+  width: 7%;
+  border-top: 5px solid #ED008C;
+}
+
+.navbar .navbar-nav .dropdown-menu #kids:before {
+  content: "";
+  position: absolute;
+  left: 205px;
+  top: 0;
+  width: 6%;
+  border-top: 5px solid #30D5C8;
+}
+
+.some h3{
+    margin-left: 550px;
+    color: chocolate;
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+  @keyframes example {
+  0%   {color:chocolate; }
+  50%  {color: orange; }
+  100% {color:chocolate; }
+}
+
